@@ -8,7 +8,7 @@
 </head>
 <body>
     
-<<<<<<< HEAD
+
     <?php
 $servername = "localhost";
 $username = "id18247922_root";
@@ -39,9 +39,15 @@ if (mysqli_num_rows($result) > 0) {
 
 mysqli_close($conn);
 
+functiom data(){
+    $rollno = $_POST['rollno'];
+    $classid = $_POST['classid'];
+    echo(rollno,classid)
+}
+?>
 
-=======
->>>>>>> af25afc0e276609ce3775b41bf365a9d36fcb786
+  
+
     <form action="#" method="post">
         <label for="rollno">Roll no</label>
         <input type="text" name="rollno" id="rollno">
